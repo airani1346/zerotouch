@@ -26,9 +26,9 @@ Management Server Cluster Definition: inside "CreateCluster" function</br>
 
 after starting script you will see following menu</br>
 
-    <b>1) Create Cluster Obj on Mgmt Create OTP and Publish</b>
+   <b>1) Create Cluster Obj on Mgmt Create OTP and Publish</b>
             a Cluster with two members are created
-    <b>2) ZT first and second GW</b>
+   <b>2) ZT first and second GW</b>
             script connects to Zero touch Portal
             gets a list of your UC
             gets a list of your Templates (Gaia and SMB)
@@ -40,13 +40,12 @@ after starting script you will see following menu</br>
             shows you the activation link
                 please open this link in browser and folow instruction
             asks you if you want to wait for process end or not.
-                if you want to wait: it will jump into a loop until deployment status is equal "Finished"
-                
-    <b>3) Create-Sic</b>
+                if you want to wait: it will jump into a loop until deployment status is equal "Finished"                
+   <b>3) Create-Sic</b>
             initiales SIC between Management Server and Gateways and waits till this process is finished
-    <b>4) Instal Policy</b>
+   <b>4) Instal Policy</b>
             starts and waits for policy push task to this Cluster 
             policy name is hard coded  in "installPolicy" function
-    <b>0) Exit</b>
+   <b>0) Exit</b>
     
 
