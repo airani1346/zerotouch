@@ -223,7 +223,7 @@ set user admin shell /bin/bash
     Write-Host "call activation link and wait for successfull config check" -ForegroundColor Magenta
     write-host "activation of $gwMac via " -ForegroundColor Magenta
 	[string]$waiter=  $(write-host "link will open. Please follow instructions and close browser at the end to continue" -ForegroundColor Magenta ; Read-Host)
-	start-process -FilePath $(Get-DefaultBrowser) -ArgumentList "https://zerotouch.checkpoint.com/ZeroTouch/activatelink/$ShowClaimedGateResponse" -wait
+	#start-process -FilePath $(Get-DefaultBrowser) -ArgumentList "https://zerotouch.checkpoint.com/ZeroTouch/activatelink/$ShowClaimedGateResponse" -wait
     
     Write-Host "# ###############################################" -ForegroundColor Yellow 
     
